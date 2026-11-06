@@ -54,7 +54,7 @@ Engram conserva la memoria contextual del proyecto y los documentos Markdown con
 Consultar los documentos relacionados con los cambios revisados:
 
 - `AGENTS.md`
-- `docs/CONTEXTO.md`
+- `docs/CONTEXT.md`
 - `docs/REQUISITOS.md`
 - `docs/ARQUITECTURA.md`
 - `docs/UX-UI.md`

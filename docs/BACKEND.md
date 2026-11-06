@@ -77,6 +77,8 @@ Se utilizará CORS para configurar qué orígenes podrán comunicarse con la API
 
 La configuración deberá permitir únicamente los orígenes autorizados.
 
+Los orígenes permitidos se configurarán mediante la variable de entorno `CORS_ORIGINS`, con una lista separada por comas. No se habilitarán orígenes arbitrarios en producción.
+
 ### 2.10. cookie-parser
 
 Se utilizará cookie-parser para interpretar las cookies recibidas en las solicitudes HTTP.
@@ -149,7 +151,9 @@ La estructura podrá ampliarse si las necesidades reales del proyecto lo justifi
 
 No se utilizará un archivo `server.js`. La configuración de Express y el inicio del servidor permanecerán centralizados en `src/app.js`.
 
-La conexión con MySQL permanecerá centralizada en `src/config/database.js`, evitando distribuir su configuración en diferentes archivos.
+La conexión con MySQL permanecerá centralizada en `src/config/database.js`, evitando distribuir su configuración en diferentes archivos. El servidor comprobará la conexión antes de empezar a escuchar solicitudes y no se iniciará si MySQL no está disponible.
+
+El inicio del servidor no modificará el esquema mediante `sequelize.sync()`. Los cambios de estructura se gestionarán mediante migraciones.
 
 Las validaciones no tendrán una carpeta independiente en la raíz de `src/`: se organizarán dentro de `middlewares/validators/`.
 
@@ -549,4 +553,3 @@ Las decisiones deberán respetar los requisitos, la arquitectura y los documento
 La estructura general de carpetas definida en este documento deberá respetarse durante la implementación. Cualquier modificación deberá justificarse según las necesidades reales del proyecto y acordarse antes de incorporarse.
 
 ---
-

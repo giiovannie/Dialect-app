@@ -39,7 +39,7 @@ No incorporar frameworks, librerías o dependencias adicionales sin autorizació
 Antes de implementar una tarea, consultar los documentos relevantes:
 
 - `AGENTS.md`
-- `docs/CONTEXTO.md`
+- `docs/CONTEXT.md`
 - `docs/REQUISITOS.md`
 - `docs/ARQUITECTURA.md`
 - `docs/CONTENIDO-EDUCATIVO.md`

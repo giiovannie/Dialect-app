@@ -53,7 +53,7 @@ Engram es la herramienta de memoria del proyecto y debe utilizarse durante la pl
 Antes de planificar una tarea, consultar los documentos relevantes:
 
 - `AGENTS.md`
-- `docs/CONTEXTO.md`
+- `docs/CONTEXT.md`
 - `docs/REQUISITOS.md`
 - `docs/ARQUITECTURA.md`
 - `docs/UX-UI.md`

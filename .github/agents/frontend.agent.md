@@ -31,7 +31,7 @@ No incorporar frameworks, librerías o dependencias adicionales sin autorizació
 Antes de implementar una tarea, consultar los documentos relevantes:
 
 - `AGENTS.md`
-- `docs/CONTEXTO.md`
+- `docs/CONTEXT.md`
 - `docs/REQUISITOS.md`
 - `docs/ARQUITECTURA.md`
 - `docs/UX-UI.md`
@@ -128,7 +128,6 @@ El agente no debe:
 - Acceder directamente a MySQL.
 - Modificar contratos de API unilateralmente.
 - Incorporar dependencias sin autorización.
-- Utilizar TypeScript.
 - Crear funcionalidades que no hayan sido solicitadas o aprobadas.
 
 Si una tarea requiere modificaciones del backend, deberá identificarlas y solicitar su implementación al agente correspondiente.
