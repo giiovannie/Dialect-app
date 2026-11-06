@@ -117,6 +117,7 @@ Durante la implementación:
 
 - Respetar las decisiones previamente aprobadas.
 - No modificar la lógica existente sin justificación.
+- Antes de solicitar autorización para un cambio, indicar los archivos que se modificarán, crearán o eliminarán, los cambios y su motivo, el impacto esperado y si afecta decisiones o estructuras aprobadas, según `docs/CONVENCIONES-CODIGO.md`.
 - No duplicar funcionalidades.
 - No inventar endpoints, modelos o contratos.
 - No agregar dependencias sin autorización.
@@ -137,9 +138,11 @@ La documentación oficial del proyecto se encuentra en `/docs`.
 
 Antes de realizar cambios importantes, consultar los documentos relacionados con la tarea.
 
+Todo cambio de código debe respetar las convenciones generales de [docs/CONVENCIONES-CODIGO.md](docs/CONVENCIONES-CODIGO.md), además de la documentación específica del área.
+
 Engram se utiliza para conservar decisiones, contexto técnico y avances importantes que deban recuperarse entre sesiones.
 
-RTK se utiliza como herramienta auxiliar de terminal. Si presenta errores o problemas de acceso, utilizar comandos nativos cuando sea necesario.
+RTK es la herramienta prioritaria para consultas y comandos de terminal. Si no está disponible o no permite ejecutar una operación, se podrá utilizar la terminal normal como alternativa, según `docs/CONVENCIONES-CODIGO.md`.
 
 No considerar una propuesta como una decisión confirmada hasta que el responsable del proyecto la apruebe.
 

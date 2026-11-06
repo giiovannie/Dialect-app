@@ -213,4 +213,6 @@ Este documento deberá actualizarse cuando se agreguen, modifiquen o eliminen en
 
 Cualquier cambio en el contrato deberá contemplar tanto el backend como el frontend para evitar incompatibilidades.
 
+Al implementar rutas, validaciones y respuestas de la API, se deberán respetar las convenciones de código de [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md), además de este contrato.
+
 El contrato de la API será la referencia compartida para implementar y mantener la comunicación entre ambos.

@@ -207,4 +207,6 @@ La arquitectura de Dialecto debe mantenerse simple, organizada y preparada para 
 
 Cada componente debe tener una responsabilidad clara. Las decisiones técnicas deben responder a las necesidades reales del proyecto y no agregar complejidad sin una justificación concreta.
 
+La implementación deberá respetar las convenciones de código de [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md), especialmente la separación de responsabilidades y la estructura aprobada.
+
 La prioridad será construir una plataforma mantenible, segura y accesible que cumpla con sus objetivos educativos.

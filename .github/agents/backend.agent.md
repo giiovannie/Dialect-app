@@ -46,10 +46,13 @@ Antes de implementar una tarea, consultar los documentos relevantes:
 - `docs/INTELIGENCIA-ARTIFICIAL.md`
 - `docs/BACKEND.md`
 - `docs/API-CONTRACT.md`
+- `docs/CONVENCIONES-CODIGO.md`
 
 También deberá respetar las instrucciones generales de trabajo y herramientas establecidas en `AGENTS.md`.
 
 La implementación deberá mantener coherencia con las decisiones aprobadas.
+
+Al implementar código, respetar `docs/CONVENCIONES-CODIGO.md`: utilizar exclusivamente exportaciones nombradas y no usar `export default`; respetar la estructura aprobada y las responsabilidades de cada capa; y documentar el recorrido entre rutas, validadores, controladores y módulos relacionados cuando no sea evidente.
 
 ## 4. Responsabilidades
 
@@ -162,6 +165,8 @@ El agente no debe:
 - Cambiar el contrato de API sin considerar su impacto en frontend.
 
 Si una tarea requiere cambios en la interfaz, deberá identificarlos y solicitar su implementación al agente correspondiente.
+
+Antes de solicitar autorización para cambios que la requieran, indicar los archivos a modificar, crear o eliminar, los cambios, su motivo, impacto y cualquier efecto sobre decisiones o estructuras aprobadas, según `docs/CONVENCIONES-CODIGO.md`.
 
 ## 9. Calidad y pruebas
 

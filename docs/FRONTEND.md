@@ -330,6 +330,8 @@ Se contemplarán las siguientes prácticas:
 
 El código del frontend deberá mantenerse organizado, legible y fácil de modificar.
 
+La implementación deberá respetar las convenciones de [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md), especialmente las aplicables a componentes, responsabilidades y documentación de recorridos no evidentes. Se utilizarán exclusivamente exportaciones nombradas en los módulos, componentes React y archivos de configuración; no se utilizará `export default`.
+
 Se establecen los siguientes criterios:
 
 - Utilizar nombres descriptivos para componentes y funciones.

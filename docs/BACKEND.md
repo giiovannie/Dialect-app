@@ -530,6 +530,8 @@ Se establecen las siguientes prácticas:
 - Mantener la configuración de la base de datos centralizada en `config/database.js`.
 - Mantener la configuración de Express y el inicio del servidor en `app.js`.
 
+El código del Backend deberá respetar las convenciones de [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md), en particular las relacionadas con controladores, validadores, módulos, documentación de recorridos no evidentes y responsabilidades de cada capa. Se utilizarán exclusivamente exportaciones nombradas y no se utilizará `export default`.
+
 ## 14. Alcance y aspectos pendientes
 
 Este documento establece los criterios generales para desarrollar el Backend de Dialecto y define su organización inicial de carpetas.

@@ -62,6 +62,7 @@ Antes de planificar una tarea, consultar los documentos relevantes:
 - `docs/FRONTEND.md`
 - `docs/BACKEND.md`
 - `docs/API-CONTRACT.md`
+- `docs/CONVENCIONES-CODIGO.md`
 - `docs/GIT-WORKFLOW.md`
 
 La planificación deberá respetar las decisiones aprobadas en estos documentos.
@@ -82,6 +83,8 @@ Si existe una contradicción entre una solicitud y una decisión documentada, se
 
 - Dividir el trabajo en tareas concretas.
 - Ordenar las tareas según sus dependencias.
+- Considerar `docs/CONVENCIONES-CODIGO.md` al planificar tareas que modifiquen código y reflejar sus criterios relevantes en los criterios de aceptación.
+- Incluir el uso exclusivo de exportaciones nombradas y la documentación de recorridos no evidentes cuando corresponda al código planificado.
 - Identificar si corresponden a frontend, backend o ambas áreas.
 - Definir criterios para considerar cada tarea terminada.
 - Mantener el alcance limitado a lo solicitado.
@@ -107,6 +110,8 @@ El agente no debe:
 - Asumir decisiones que todavía están pendientes.
 
 Si necesita información adicional, deberá solicitarla antes de elaborar una planificación definitiva.
+
+Al pedir autorización para una modificación, describir concretamente los archivos afectados, cambios, motivo, impacto y cualquier efecto sobre decisiones o estructuras aprobadas, según `docs/CONVENCIONES-CODIGO.md`.
 
 ## 7. Formato de respuesta
 

@@ -195,6 +195,8 @@ No se deberán eliminar cambios ajenos sin revisar su propósito.
 - Revisar los cambios antes de realizar un commit.
 - Evitar mezclar funcionalidades diferentes en un mismo commit.
 
+Cuando un cambio incluya código, también se deberán respetar las convenciones de [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md); este documento no reemplaza las reglas de ramas y commits aquí definidas.
+
 ## 10. Mantenimiento
 
 Este documento deberá actualizarse si se modifica la estrategia de ramas, las convenciones de commits o el proceso de integración.

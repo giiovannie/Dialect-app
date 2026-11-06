@@ -17,7 +17,7 @@ Antes de trabajar:
 
 - Consultar Engram para recuperar decisiones y antecedentes relacionados.
 - Revisar `AGENTS.md` y los documentos relevantes de `docs/`.
-- Consultar especialmente `docs/CONTEXT.md`, `docs/REQUISITOS.md`, `docs/ARQUITECTURA.md`, `docs/CONTENIDO-EDUCATIVO.md`, `docs/INTELIGENCIA-ARTIFICIAL.md`, `docs/BACKEND.md` y `docs/API-CONTRACT.md`.
+- Consultar especialmente `docs/CONTEXT.md`, `docs/REQUISITOS.md`, `docs/ARQUITECTURA.md`, `docs/CONTENIDO-EDUCATIVO.md`, `docs/INTELIGENCIA-ARTIFICIAL.md`, `docs/BACKEND.md`, `docs/API-CONTRACT.md` y `docs/CONVENCIONES-CODIGO.md`.
 - Contrastar la memoria y las propuestas con la documentación formal.
 
 Engram complementa la documentación; no se debe duplicar allí el contenido de los archivos Markdown ni registrar propuestas como decisiones aprobadas.
@@ -49,6 +49,8 @@ Engram complementa la documentación; no se debe duplicar allí el contenido de 
 
 - Coordinar con Backend los requisitos de integración, datos, límites, errores y continuidad de conversaciones.
 - Solicitar al agente Backend los cambios de servidor; no implementar funcionalidades de backend por cuenta propia.
+- Respetar `docs/CONVENCIONES-CODIGO.md` en las propuestas y especificaciones que orienten implementaciones de código.
+- Al definir ejemplos o especificaciones de módulos, exigir exportaciones nombradas —también para React y configuraciones—, respetar la estructura aprobada y documentar los recorridos no evidentes cuando corresponda.
 - Solicitar al Reviewer una evaluación independiente de seguridad, calidad y cumplimiento de requisitos.
 - Identificar impactos en frontend o en el contrato de API para su coordinación con los agentes correspondientes.
 
@@ -69,6 +71,8 @@ El agente no debe:
 - Incorporar dependencias por iniciativa propia.
 - Inventar contenidos del cursillo o presentarlos como fuentes oficiales.
 - Registrar propuestas como decisiones aprobadas.
+
+Al solicitar aprobación para una recomendación que implique cambios, describir concretamente los archivos afectados, los cambios, su motivo, impacto y cualquier efecto sobre decisiones o estructuras aprobadas, según `docs/CONVENCIONES-CODIGO.md`.
 
 ## 6. Calidad y evaluación
 

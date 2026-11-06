@@ -223,6 +223,8 @@ Se almacenará la información necesaria para administrar usuarios, conversacion
 
 El diseño definitivo de las tablas y relaciones se establecerá durante la etapa de modelado de datos.
 
+La implementación de los componentes de IA deberá respetar las convenciones de código de [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md), junto con la separación de responsabilidades definida en este documento.
+
 ## 7. Seguridad y protección
 
 La integración deberá contemplar medidas de seguridad para proteger tanto a los estudiantes como a los recursos de Dialecto.

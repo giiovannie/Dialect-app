@@ -37,10 +37,13 @@ Antes de implementar una tarea, consultar los documentos relevantes:
 - `docs/UX-UI.md`
 - `docs/FRONTEND.md`
 - `docs/API-CONTRACT.md`
+- `docs/CONVENCIONES-CODIGO.md`
 
 También deberá respetar las instrucciones generales de trabajo y herramientas establecidas en `AGENTS.md`.
 
 La implementación deberá mantener coherencia con las decisiones aprobadas.
+
+Al implementar código, respetar `docs/CONVENCIONES-CODIGO.md`: utilizar exclusivamente exportaciones nombradas, también en componentes React y archivos de configuración; no usar `export default`; mantener la estructura aprobada; y documentar los recorridos entre componentes y módulos cuando no sean evidentes.
 
 ## 4. Responsabilidades
 
@@ -131,6 +134,8 @@ El agente no debe:
 - Crear funcionalidades que no hayan sido solicitadas o aprobadas.
 
 Si una tarea requiere modificaciones del backend, deberá identificarlas y solicitar su implementación al agente correspondiente.
+
+Antes de solicitar autorización para cambios que la requieran, indicar los archivos a modificar, crear o eliminar, los cambios, su motivo, impacto y cualquier efecto sobre decisiones o estructuras aprobadas, según `docs/CONVENCIONES-CODIGO.md`.
 
 ## 8. Calidad y pruebas
 

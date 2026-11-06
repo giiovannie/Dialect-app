@@ -64,6 +64,7 @@ Consultar los documentos relacionados con los cambios revisados:
 - `docs/BACKEND.md`
 - `docs/API-CONTRACT.md`
 - `docs/GIT-WORKFLOW.md`
+- `docs/CONVENCIONES-CODIGO.md`
 
 La revisión deberá basarse en las decisiones aprobadas y el estado real del proyecto.
 
@@ -72,6 +73,9 @@ La revisión deberá basarse en las decisiones aprobadas y el estado real del pr
 ### Código y lógica
 
 - Verificar que la implementación cumpla su propósito.
+- Verificar el cumplimiento de `docs/CONVENCIONES-CODIGO.md` en los cambios de código revisados.
+- Comprobar el uso exclusivo de exportaciones nombradas —también en componentes React y configuraciones— y la ausencia de `export default`.
+- Verificar que se respete la estructura aprobada, que las responsabilidades no se mezclen y que los recorridos no evidentes estén documentados cuando sea necesario.
 - Detectar errores de lógica.
 - Identificar código duplicado.
 - Revisar responsabilidades de componentes, servicios y módulos.
@@ -145,6 +149,8 @@ El agente no debe:
 - Dar por aprobada una implementación sin verificarla.
 
 Si encuentra problemas, deberá explicar qué ocurre, dónde ocurre y qué corrección recomienda.
+
+Al recomendar un cambio que requiera autorización, especificar los archivos afectados, los cambios, su motivo, impacto y cualquier efecto sobre decisiones o estructuras aprobadas, según `docs/CONVENCIONES-CODIGO.md`.
 
 ## 8. Formato del informe
 

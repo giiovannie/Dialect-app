@@ -173,6 +173,7 @@ El diseño debe priorizar una experiencia mobile-first.
 
 - El proyecto debe mantener una estructura organizada.
 - El código debe ser legible y facilitar futuras modificaciones.
+- El código deberá respetar las convenciones establecidas en [CONVENCIONES-CODIGO.md](./CONVENCIONES-CODIGO.md).
 - La organización del contenido debe permitir incorporar nuevas unidades y materiales sin tener que rediseñar toda la plataforma.
 - Las decisiones técnicas deben quedar documentadas.
 
